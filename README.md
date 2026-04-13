@@ -42,7 +42,7 @@
 
 ---
 
-### Etape 3: Injection des dépendances via constructeur
+### Etape 4: Injection des dépendances via constructeur
 * **Taches:**
   - [x] Dans Product Class; Implémentation de OnInit pour faire l'injection des dépendances via le constructeur
   - [x] Changement du type tableau à any dans le .ts pour ne plus donner un erreur d'initialisation et ajouter une condition ngIf pour tester l'instanciation avant l'affichage 
@@ -52,7 +52,7 @@
 
 ---
 
-### Etape 3: Ajout du service
+### Etape 5: Ajout du service
 * **Taches:**
   - [x] Création d'un service product
   - [x] Ajout de la liste des produits
