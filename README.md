@@ -30,8 +30,17 @@
   - [x] Routage avec app.routes en important routerLink et routerOutlet
 * **Commit Hash:** `Ajout des components home et products`
 
+
 ---
 
+### Etape 3: Ajout des attributs dans les classes des component et string mapping
+* **Taches:**
+  - [x] Ajout du code html au products component pour affichage des produits
+  - [x] Ajout des produits dans product component's class
+  - [x] Importation du NgFor
+* **Commit Hash:** `Affichage du tableau de produit`
+
+---
 
 
 
