@@ -52,5 +52,14 @@
 
 ---
 
+### Etape 3: Ajout du service
+* **Taches:**
+  - [x] Création d'un service product
+  - [x] Ajout de la liste des produits
+  - [x] Ajout de la méthode getAllProducts
+  - [x] Injection du service dans la composante product dans le fichier .ts via le constructeur
+* **Commit Hash:** `Ajout du service`
+
+---
 
 2026 - HAFSSA MIFTAH IDRISSI - ENSET/ MST-SDIA 1
