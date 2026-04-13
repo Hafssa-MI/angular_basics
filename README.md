@@ -42,6 +42,15 @@
 
 ---
 
+### Etape 3: Injection des dépendances via constructeur
+* **Taches:**
+  - [x] Dans Product Class; Implémentation de OnInit pour faire l'injection des dépendances via le constructeur
+  - [x] Changement du type tableau à any dans le .ts pour ne plus donner un erreur d'initialisation et ajouter une condition ngIf pour tester l'instanciation avant l'affichage 
+  - [x] Installation du bootstrap icons et l'importer dans le style.css pour utiliser les icons
+  - [x] Ajout du bouton de supression dans la vue HTML et la fonction handleDelete dans le .ts
+* **Commit Hash:** `Injection des dépendances via constructeur`
+
+---
 
 
 2026 - HAFSSA MIFTAH IDRISSI - ENSET/ MST-SDIA 1

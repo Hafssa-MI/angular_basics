@@ -7,23 +7,40 @@
         <th>ID</th><th>Name</th><th>Price</th><th>Selected</th>
       </tr>
       </thead>
-      <tbody>
+      @if (products){
+      <tbody > <!--On ne parcourt pas et on n'affiche pas que si product est intialisé avec OnInit -->
+        @for(p of products; track p){
+            <tr>
+              <td>{{p.id}}</td>
+              <td>{{p.name}}</td>
+              <td>{{p.price}}</td>
+              <td>
+                @if(p.selected){
+                  <i class="bi bi-check-circle"></i>
+                }@else{
+                  <i class="bi bi-circle"></i>
+                }
+              </td>
+              <td>
+                <button (click)="handleDelete(p)" class="btn btn-outline-danger">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </td>
+            </tr>
+          }
+        </tbody>
+      }
 
-      @for(p of products; track p){
-      <tr>
+      <!--
+      <tbody *ngIf="products">
+      <tr *ngFor="let p of products">
           <td>{{p.id}}</td>
           <td>{{p.name}}</td>
           <td>{{p.price}}</td>
           <td>{{p.selected}}</td>
-        </tr>}
-
-        <!--<tr *ngFor="let p of products">
-          <td>{{p.id}}</td>
-          <td>{{p.name}}</td>
-          <td>{{p.price}}</td>
-          <td>{{p.selected}}</td>
-        </tr>-->
-      </tbody>
+        </tr>
+        </tbody>>
+        -->
     </table>
   </div>
 </div>
